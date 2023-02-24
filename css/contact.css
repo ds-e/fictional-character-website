@@ -1,0 +1,81 @@
+
+.info {
+    margin-top: 130px;
+    column-gap: 40px;
+}
+
+    img:not(.phoneImg) { width: 25px; }
+    
+    .phoneImg { width: 20px; }
+
+
+
+
+
+
+.nav-tabs { justify-content: center; }
+
+.message, .commentaire {
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 70%;
+    margin: auto;
+    background-color: #fff;
+}
+
+
+.input-group-text, .form-label {
+    background-color: rgba(160, 165, 190, 0.178) !important;
+    width: 140px;
+}
+
+
+
+.commentaire .input-group-text, .commentaire .form-label {
+    width: 165px;
+}
+
+
+.form-label {
+    border: solid 1px rgb(204, 204, 204);
+    border-radius: 5px 5px 0 0 ;
+    border-bottom: none;
+}
+
+.form-control {
+    border-radius: 0 5px 5px 5px;
+}
+
+.form-control:focus {
+    border:solid 1px #0c397c60;
+    box-shadow: none;
+} 
+
+.btn {
+    border: solid 1px rgb(204, 204, 204) !important;
+    width: 100px;
+}
+
+.commentaire .btn {
+    width: 130px;
+}
+
+button:focus {
+    box-shadow: none !important;
+}
+button:hover {
+    background-color: rgba(160, 165, 190, 0.178) !important;
+}
+
+.star{
+    width: 80px !important;
+    margin-right: 30px;
+}
+
+
+.required:after {
+    content:" *";
+    color: rgb(168, 96, 96);
+    font-size: 2em;
+    margin-left: 15px;
+}

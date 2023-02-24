@@ -1,0 +1,132 @@
+html,
+body {
+    overflow: auto;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    color: rgba(61, 21, 13, 0.747);
+}
+
+
+::-webkit-scrollbar-track {
+    border-left: 0.5px solid rgba(99, 28, 28, 0.178);
+    background-color: #b8b5c344;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #82838a9c;
+    border-radius: 3px;
+}
+
+h1 {
+    font-weight: bold;
+    margin-top: 150px;
+    text-transform: uppercase;
+    color: rgb(204, 190, 188);
+}
+
+.taupe {
+    color: rgb(192, 161, 156);
+}
+
+.mauve {
+    color: rgba(56, 40, 86, 0.625);
+}
+
+.bg-mauve {
+    background-color: rgba(30, 13, 61, 0.201);
+}
+
+.bleu {
+    color: rgba(17, 45, 110, 0.575);
+}
+
+.bg-bleu {
+    background-color: rgba(17, 41, 79, 0.164);
+}
+
+a,
+ul,
+li {
+    list-style: none;
+    text-decoration: none;
+    color: #000000a3;
+    font-size: calc(1em + .2vw);
+    margin-bottom: 0;
+    padding: 0;
+}
+
+a:hover:not(#navLeft) {
+    background-color: rgba(146, 171, 197, 0.349);
+}
+
+a:hover {
+    color: #000000a3;
+}
+
+.current {
+    background-color: rgba(146, 171, 197, 0.349);
+}
+
+
+
+
+
+#headerImg {
+    border-radius: 30px;
+    filter: hue-rotate(300deg);
+    background-color: rgb(255, 245, 245);
+    width: calc(50px + .5vw);
+    margin: 10px 0;
+}
+
+.navbar h2 {
+    font-size: calc(1.2em + .5vw);
+    font-weight: bold;
+}
+
+/* header > a { width: fit-content }
+
+    header a { 
+        font-weight: bold; 
+        color: white;
+    }
+    header a:hover {
+        background-color: blue;
+    } */
+
+/* .dropdown-menu  {
+        inset:10px auto auto -70px !important;
+        text-align: center;
+        width: 230px;
+        background-color: rgb(204, 190, 188);
+    } */
+/* .dropdown-menu {
+        background-color: rgb(204, 190, 188);
+    } */
+.dropdown-menu a:hover {
+    background-color: rgba(146, 171, 197, 0.349);
+
+}
+
+.dropdown-toggle:focus {
+    background-color: rgba(146, 171, 197, 0.349);
+}
+
+/* 
+    .dropdown-menu:hover{
+        display: block;
+    }
+
+    .dropdown-menu a {
+        font-size: calc(1em + .2vw);
+    } 
+
+    .dropdown-toggle::after {
+        display: none;
+    } */

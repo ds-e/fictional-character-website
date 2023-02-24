@@ -1,0 +1,141 @@
+
+.row1 {
+    margin: 150px 0 80px 0;    
+    font-size: calc(0.7em + .2vw);
+    max-width: 90%;            
+    padding-left: 50px;
+}
+
+
+
+
+.rightCol { flex-basis: 30%; }
+
+    .rightCol a {
+        font-size: calc(0.8em + .2vw);
+        color: rgba(43, 117, 201, 0.801);
+        border-bottom: dotted rgb(219, 199, 199) 2px ;
+    }
+
+    .rightCol a:hover {
+        text-decoration: none;
+        border: none;
+        background-color: transparent;
+    }
+
+
+    .citationsDiv {
+        border: 0.5px solid rgba(18, 29, 61, 0.24) !important;
+        border-radius: 0 100px 100px 100px;
+        padding: 20px 55px 20px 20px;
+        margin-bottom: 80px;
+    }
+
+    .citationsDiv p { margin: 0; }
+
+
+
+
+.carousel {
+    max-width: 500px;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    margin-left: -80px;
+    margin-right: 25px;
+    padding:30px 0  ;
+    border-radius: 15px;
+}
+
+    .carousel button:not(.carousel-indicators button) {
+        background-color: rgba(97, 38, 38, 0.308);
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        margin: auto 10px;
+    }
+
+    .carousel img:not(.stars) {
+        width: 70px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 50%;
+        margin-top: -30px;
+        border: solid 0.5px rgba(22, 51, 129, 0.164);
+    }
+
+    .stars {
+        width: 80px;
+    }
+
+    .review {
+        max-width: 76%;
+        background-color: rgba(112, 139, 168, 0.158);
+        padding: 0 30px;
+        border-radius: 20px;
+        border: solid 0.5px rgba(70, 90, 145, 0.041);
+    }
+
+    .carousel-indicators button {
+        background-color: rgba(70, 25, 25, 0.219) !important;
+    }
+
+    .carousel-inner {
+        height: fit-content;
+
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 1rem;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        width: fit-content;
+    }
+
+.cardDiv {
+    border: black solid 1px;
+    border-left: 40px solid rgba(30, 13, 61, 0.424);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+    .cardDiv h5 {
+        transform: rotate(-90deg);
+        color: rgb(230, 230, 230);
+        margin-top: 5px;
+    }
+
+    .cardBlog h5{ margin-left: -46px; }
+
+    .cardBio h5 { margin-left: -38px; }
+
+    .cardLivres h5 { margin-left: -52px; }
+
+    .cardDiv p {
+        margin-bottom: 0;
+        padding: 20px;
+        font-size: calc(0.9em + .2vw);
+    }
+
+
+
+
+
+
+@media only screen and (max-width: 990px) {
+
+    .carousel  {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+
+    .row {
+        padding-left: 0;
+    }
+
+    .rightCol {
+        flex-basis: 100%;
+        margin-top: 100px;
+    }
+  }

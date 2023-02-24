@@ -1,0 +1,153 @@
+.cardDiv {
+    background-color: rgba(247, 247, 247, 0.918);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px 0;
+}
+
+
+/* -- Introduction -- */
+
+.introText {
+    font-size: calc(0.7em + .5vw);
+    text-align: center;
+    margin-top: 20px;
+    white-space: normal;
+
+}
+
+.intro .card {
+    border-radius: 15px;
+    width: 100%;
+    max-width: 470px;
+    margin-top: 40px;
+    word-break: keep-all;
+}
+
+.intro .card p {
+    font-size: calc(0.6em + .5vw);
+    white-space: nowrap;
+    color: rgb(46, 28, 28);
+}
+
+.intro .card-title {
+    background-color: rgb(31, 98, 153);
+    height: 90px;
+    padding: 10px;
+    border-radius: 15px 15px 0 0;
+}
+
+.card h1 {
+    font-size: calc(0.8em + .5vw);
+    transform: translate(0, 35%);
+    padding-right: 20px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+
+.idImg {
+    width: calc(100px + .5vw);
+    display: block;
+    margin: 0 auto;
+
+}
+
+.signature {
+    font-family: 'Dancing Script', cursive;
+    text-align: right;
+    width: calc(100px + .5vw);
+    margin: 0 auto;
+}
+
+
+
+
+/* -- Education -- */
+
+.education {
+    background-color: rgba(150, 89, 89, 0.082);
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.list-group {
+    max-width: 80%;
+    border-radius: 20px;
+    min-width: 620px;
+    text-align: justify;
+}
+
+.list-group-item {
+    font-size: calc(0.5em + .4vw);
+    color: rgba(61, 21, 13, 0.747);
+}
+
+.list-group-item span {
+    white-space: nowrap;
+}
+
+.list-group-item p {
+    margin: 10px 30px 10px 10px;
+}
+
+.uni-logo {
+    width: calc(35px + .5vw);
+}
+
+.education img {
+    width: calc(25px + .5vw);
+    margin: 5px 20px 5px 0;
+}
+
+.course {
+    min-width: calc(240px + 0.5vw);
+}
+
+.badge {
+    color: rgba(61, 21, 13, 0.747);
+}
+
+
+
+
+/* -- Experience -- */
+
+.experience {
+    margin: 0;
+    background-color: rgba(114, 147, 182, 0.096);
+    font-size: calc(0.7em + .5vw);
+
+}
+
+
+
+p {
+    margin: 0;
+}
+
+
+
+/* -- Divers -- */
+
+.divers {
+    background-color: rgba(150, 89, 89, 0.082);
+    margin-bottom: 50px;
+    font-size: calc(0.6em + .5vw);
+    width: auto;
+}
+
+.divers p {
+    width: 50%;
+    min-width: 200px;
+}
+
+.divers div {
+    column-gap: 50px;
+}
+
+
+.divers img {
+    border-radius: 10px;
+    width: calc(150px + .5vw);
+}
