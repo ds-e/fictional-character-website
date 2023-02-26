@@ -25,190 +25,191 @@
 
 <body>
 
-
+    <!--  header  -->
     <div class="container-fluid px-0">
 
-        <!--  header  -->
-        <div class="container-fluid px-0">
-
-            <nav class="navbar navbar-expand-md navbar-light bg-light border fixed-top">
-                <div class="container-fluid">
-                    <a href="home-cv.html" class="col d-flex align-items-center" id="navLeft">
-                        <img id="headerImg" src="../contents/images/sherlock-nav.png" alt="sherlock">
-                        <h2 class="ms-4 mt-2 font-weight-bold">Sherlock Holmes</h2>
-                    </a>
-                    <li>
-                        <a class="border rounded-pill me-4 px-3" href="home-cv.html">CV</a>
-                    </li>
-                            <li>
-                                <a class="border rounded-pill me-4 px-3" href="plus.html">Plus</a>
-                            </li>
-                            <li>
-                                <a class="border rounded-pill px-3 current" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
+        <nav class="navbar navbar-expand-md navbar-light bg-light border fixed-top  px-3">
+            <div class="container-fluid">
+                <a href="home-cv.html" class="col d-flex align-items-center" id="navLeft">
+                    <img id="headerImg" src="../contents/images/sherlock-nav.png" alt="sherlock">
+                    <h2 class="ms-4 mt-2 font-weight-bold">Sherlock Holmes</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li>
+                            <a class="border rounded-pill me-4 px-3" href="home-cv.html">CV</a>
+                        </li>
+                        <li>
+                            <a class="border rounded-pill me-4 px-3" href="plus.html">Plus</a>
+                        </li>
+                        <li>
+                            <a class="border rounded-pill px-3 current" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
+            </div>
+        </nav>
 
 
 
-
-            <ul class="d-flex flex-wrap justify-content-center mb-5 info">
-                <li>
-                    <img class="phoneImg" src="../contents/icons/phone.png" alt="phone"> 514-578-3694
-                </li>
-                <li>
-                    <img src="../contents/icons/email.png" alt="email"> sherlockholmes@gmail.com
-                </li>
-                <li>
-                    <img src="../contents/icons/location.png" alt="location"> 221B Baker St, London
-                </li>
-            </ul>
-
-
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="message-tab" data-bs-toggle="tab" data-bs-target="#message"
-                        type="button" role="tab" aria-controls="message" aria-selected="true">Message</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button"
-                        role="tab" aria-controls="review" aria-selected="false">Commentaire</button>
-                </li>
-
-            </ul>
+        <ul class="d-flex flex-wrap justify-content-center mb-5 info">
+            <li>
+                <img class="phoneImg" src="../contents/icons/phone.png" alt="phone"> 514-578-3694
+            </li>
+            <li>
+                <img src="../contents/icons/email.png" alt="email"> sherlockholmes@gmail.com
+            </li>
+            <li>
+                <img src="../contents/icons/location.png" alt="location"> 221B Baker St, London
+            </li>
+        </ul>
 
 
-            <!-- message -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
 
-            <div class="tab-content" id="myTabContent">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="message-tab" data-bs-toggle="tab" data-bs-target="#message"
+                    type="button" role="tab" aria-controls="message" aria-selected="true">Message</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button"
+                    role="tab" aria-controls="review" aria-selected="false">Commentaire</button>
+            </li>
 
-                <div class="tab-pane fade show active" id="message" role="tabpanel" aria-labelledby="message-tab">
-
-                    <div class="message shadow my-4">
-
-                        <form id="messageForm" method="post" action="https://www.w3schools.com/action_page.php">
-
-                            <div class="input-group mb-4 ">
-                                <span class="input-group-text ps-3 required">&nbsp; &nbsp;Nom</span>
-                                <input type="text" id="nom" name="nom" aria-label="Nom" class="form-control" required>
-                            </div>
-
-                            <div class="input-group mb-4">
-                                <span class="input-group-text ps-4 required">E-mail</span>
-                                <input type="email" id="email" name="email" aria-label="e-mail" class="form-control"
-                                    required>
-                            </div>
-
-                            <div class="input-group mb-4">
-                                <span class="input-group-text ps-3 required">&nbsp; &nbsp;Sujet</span>
-                                <input type="text" id="subject" name="subject" aria-label="sujet" class="form-control"
-                                    required>
-                            </div>
-
-                            <div>
-                                <label for="messageTextArea" class="form-label ps-3 py-2 mb-0 required msgField">&nbsp;
-                                    Message</label>
-                                <textarea class="form-control" id="messageTextArea" name="messageTextArea" rows="3"
-                                    required></textarea>
-                            </div>
-
-                            <button type="submit" class="btn mt-4 ms-1 bg-bleu">Envoyer</button>
-
-                        </form>
-                    </div>
-
-                </div>
+        </ul>
 
 
-                <!-- commentaire -->
+        <!-- message -->
 
-                <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
+        <div class="tab-content" id="myTabContent">
 
-                    <div class="commentaire shadow my-4">
+            <div class="tab-pane fade show active" id="message" role="tabpanel" aria-labelledby="message-tab">
 
-                        <form id="commentaireForm" method="post" action="https://www.w3schools.com/action_page.php">
+                <div class="message shadow my-4">
 
-                            <div class="input-group mb-5">
-                                <span class="input-group-text ps-5">Nom</span>
-                                <input type="text" id="nom2" name="nom2" aria-label="Nom" class="form-control">
-                            </div>
+                    <form id="messageForm" method="post" action="https://www.w3schools.com/action_page.php">
 
-                            <div class="input-group mb-5">
-                                <span class="input-group-text required">Type de client</span>
-                                <input type="text" id="client" name="client" aria-label="Client" class="form-control"
-                                    required>
-                            </div>
+                        <div class="input-group mb-4 ">
+                            <span class="input-group-text ps-3 required">&nbsp; &nbsp;Nom</span>
+                            <input type="text" id="nom" name="nom" aria-label="Nom" class="form-control" required>
+                        </div>
 
-                            <div>
-                                <label for="ReviewTextArea"
-                                    class="form-label ps-3 py-2 mb-0 required">Commentaire</label>
-                                <textarea class="form-control" id="ReviewTextArea" name="ReviewTextArea" rows="5"
-                                    required></textarea>
-                            </div>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text ps-4 required">E-mail</span>
+                            <input type="email" id="email" name="email" aria-label="e-mail" class="form-control"
+                                required>
+                        </div>
 
+                        <div class="input-group mb-4">
+                            <span class="input-group-text ps-3 required">&nbsp; &nbsp;Sujet</span>
+                            <input type="text" id="subject" name="subject" aria-label="sujet" class="form-control"
+                                required>
+                        </div>
 
-                            <div class="d-flex flex-wrap">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="stars5" id="stars5">
-                                    <label class="form-check-label" for="stars5">
-                                        <img class=" star" src="../contents/icons/stars5.png" alt="stars5">
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="stars4" id="stars4">
-                                    <label class="form-check-label" for="stars4">
-                                        <img class=" star" src="../contents/icons/stars4.png" alt="stars4">
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="stars3" id="stars3">
-                                    <label class="form-check-label" for="stars3">
-                                        <img class=" star" src="../contents/icons/stars3.png" alt="stars3">
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="stars2" id="stars2">
-                                    <label class="form-check-label" for="stars2">
-                                        <img class=" star" src="../contents/icons/stars2.png" alt="stars2">
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="stars1" id="stars1">
-                                    <label class="form-check-label" for="stars1">
-                                        <img class=" star" src="../contents/icons/stars1.png" alt="stars1">
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="stars0" id="stars0">
-                                    <label class="form-check-label" for="stars0">
-                                        <img class=" star" src="../contents/icons/stars0.png" alt="stars0">
-                                    </label>
-                                </div>
-                            </div>
-                            <button type="submit" class="btn mt-4 ms-1  bg-bleu">Enregistrer</button>
+                        <div>
+                            <label for="messageTextArea" class="form-label ps-3 py-2 mb-0 required msgField">&nbsp;
+                                Message</label>
+                            <textarea class="form-control" id="messageTextArea" name="messageTextArea" rows="3"
+                                required></textarea>
+                        </div>
 
-                        </form>
-                    </div>
+                        <button type="submit" class="btn mt-4 ms-1 bg-bleu">Envoyer</button>
+
+                    </form>
                 </div>
 
             </div>
 
 
+            <!-- commentaire -->
+
+            <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
+
+                <div class="commentaire shadow my-4">
+
+                    <form id="commentaireForm" method="post" action="https://www.w3schools.com/action_page.php">
+
+                        <div class="input-group mb-5">
+                            <span class="input-group-text ps-5">Nom</span>
+                            <input type="text" id="nom2" name="nom2" aria-label="Nom" class="form-control">
+                        </div>
+
+                        <div class="input-group mb-5">
+                            <span class="input-group-text required">Type de client</span>
+                            <input type="text" id="client" name="client" aria-label="Client" class="form-control"
+                                required>
+                        </div>
+
+                        <div>
+                            <label for="ReviewTextArea" class="form-label ps-3 py-2 mb-0 required">Commentaire</label>
+                            <textarea class="form-control" id="ReviewTextArea" name="ReviewTextArea" rows="5"
+                                required></textarea>
+                        </div>
 
 
+                        <div class="d-flex flex-wrap">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="stars5" id="stars5">
+                                <label class="form-check-label" for="stars5">
+                                    <img class=" star" src="../contents/icons/stars5.png" alt="stars5">
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="stars4" id="stars4">
+                                <label class="form-check-label" for="stars4">
+                                    <img class=" star" src="../contents/icons/stars4.png" alt="stars4">
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="stars3" id="stars3">
+                                <label class="form-check-label" for="stars3">
+                                    <img class=" star" src="../contents/icons/stars3.png" alt="stars3">
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="stars2" id="stars2">
+                                <label class="form-check-label" for="stars2">
+                                    <img class=" star" src="../contents/icons/stars2.png" alt="stars2">
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="stars1" id="stars1">
+                                <label class="form-check-label" for="stars1">
+                                    <img class=" star" src="../contents/icons/stars1.png" alt="stars1">
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="stars0" id="stars0">
+                                <label class="form-check-label" for="stars0">
+                                    <img class=" star" src="../contents/icons/stars0.png" alt="stars0">
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn mt-4 ms-1  bg-bleu">Enregistrer</button>
 
-
+                    </form>
+                </div>
+            </div>
 
         </div>
 
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
-            </script>
+
+
+
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+        </script>
 
 
 </body>

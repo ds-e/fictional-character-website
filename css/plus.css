@@ -47,7 +47,7 @@
 }
 
     .carousel button:not(.carousel-indicators button) {
-        background-color: rgba(97, 38, 38, 0.308);
+        background-color: rgba(30, 13, 61, 0.424);
         height: 30px;
         width: 30px;
         border-radius: 50%;

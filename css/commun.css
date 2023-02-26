@@ -11,7 +11,7 @@ body {
 
 ::-webkit-scrollbar-track {
     border-left: 0.5px solid rgba(99, 28, 28, 0.178);
-    background-color: #b8b5c344;
+    background-color: #d5d3dd44;
 }
 
 ::-webkit-scrollbar {
@@ -19,7 +19,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #82838a9c;
+    background-color: #a7a7aa7b;
     border-radius: 3px;
 }
 
@@ -39,7 +39,7 @@ h1 {
 }
 
 .bg-mauve {
-    background-color: rgba(30, 13, 61, 0.201);
+    background-color: rgba(60, 31, 113, 0.164);
 }
 
 .bleu {
@@ -47,7 +47,7 @@ h1 {
 }
 
 .bg-bleu {
-    background-color: rgba(17, 41, 79, 0.164);
+    background-color: rgba(58, 88, 165, 0.17);
 }
 
 a,
@@ -62,15 +62,18 @@ li {
 }
 
 a:hover:not(#navLeft) {
-    background-color: rgba(146, 171, 197, 0.349);
+    background-color: rgba(39, 28, 123, 0.305);
+    color: white;
 }
 
-a:hover {
+#navLeft:hover {
     color: #000000a3;
 }
 
 .current {
-    background-color: rgba(146, 171, 197, 0.349);
+    background-color: rgba(39, 28, 123, 0.305);
+    color: white;
+
 }
 
 
@@ -90,25 +93,6 @@ a:hover {
     font-weight: bold;
 }
 
-/* header > a { width: fit-content }
-
-    header a { 
-        font-weight: bold; 
-        color: white;
-    }
-    header a:hover {
-        background-color: blue;
-    } */
-
-/* .dropdown-menu  {
-        inset:10px auto auto -70px !important;
-        text-align: center;
-        width: 230px;
-        background-color: rgb(204, 190, 188);
-    } */
-/* .dropdown-menu {
-        background-color: rgb(204, 190, 188);
-    } */
 .dropdown-menu a:hover {
     background-color: rgba(146, 171, 197, 0.349);
 
@@ -117,16 +101,3 @@ a:hover {
 .dropdown-toggle:focus {
     background-color: rgba(146, 171, 197, 0.349);
 }
-
-/* 
-    .dropdown-menu:hover{
-        display: block;
-    }
-
-    .dropdown-menu a {
-        font-size: calc(1em + .2vw);
-    } 
-
-    .dropdown-toggle::after {
-        display: none;
-    } */
